@@ -120,3 +120,33 @@ when  new apk version is available application check version and auto upadet the
 
               }
 
+# html & css for progressbar 
+
+
+     <div class="progress-outer" *ngIf="progressBar"  >
+        <div class="progress-inner" [style.width]="progress + '%'">
+          {{ progress}}%
+        </div>
+      </div>
+
+
+      .progress-outer {
+      width: 96%;
+      margin: 10px 2%;
+      padding: 2px;
+      text-align: center;
+      background-color: #f4f4f4;
+      // border: 1px solid #dcdcdc;
+      color: #fff;
+      border-radius: 10px;
+    }
+
+    .progress-inner {
+      min-width: 15%;
+      white-space: nowrap;
+      overflow: hidden;
+      padding: 2px;
+      border-radius: 10px;
+      background-color:var(--main-bg-color);
+      font-size: 10px;
+    }
