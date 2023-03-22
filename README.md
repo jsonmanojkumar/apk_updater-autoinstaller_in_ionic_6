@@ -9,14 +9,14 @@ when  new apk version is available application check version and auto upadet the
   cordova-android: 9.0.0+
 
 # Installation
-  Cordova
+  # Cordova
 
   cordova plugin add cordova-plugin-apkupdater
 
-  Ionic + Cordova
+  # Ionic + Cordova
 
   ionic cordova plugin add cordova-plugin-apkupdater
 
-  Capacitor
+  # Capacitor
 
   npm install cordova-plugin-apkupdater
